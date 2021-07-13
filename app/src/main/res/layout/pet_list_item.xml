@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <Switch
+        android:id="@+id/pet_item_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/pet_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/pet_item_switch"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:padding="4dp"/>
+
+    <TextView
+        android:id="@+id/pet_fed_text"
+        android:text="THIS IS A TEST BIG BOY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pet_item_text"
+        android:textSize="12dp"
+        android:padding="4dp"
+        android:paddingTop="4dp"/>
+
+
+
+</RelativeLayout>
